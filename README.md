@@ -1,2 +1,3 @@
-# devutil
-Useful JavaScript development utilities
+# DevUtilJS
+
+Useful JavaScript development utilities.
