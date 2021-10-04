@@ -1,10 +1,12 @@
-class DevUtil {
-    static isUndefined(variable) {
-        return variable === undefined || variable === null;
-    }
+"use strict";
 
+class DevUtil {
     static isDefined(variable) {
         return variable !== undefined && variable !== null;
+    }
+
+    static isUndefined(variable) {
+        return variable === undefined || variable === null;
     }
 
     static isTrue(variable) {
