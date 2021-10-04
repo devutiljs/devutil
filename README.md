@@ -6,11 +6,11 @@ Useful JavaScript development utilities.
 
 ### JavaScript file
 
- * Download whole repository or just a single `[devutil.js](dist/devutil.js)` file
- * Add to .html file (<head> section):
-  * <script src="devutil.js"></script>
+ * Download whole repository or just a single [devutil.js](dist/devutil.js) file
+ * Add to .html file (`<head>` section):
+   * <script src="devutil.js"></script>
  * Call JavaScript function from your JavaScript code, example:
-  * <script type="application/javascript">console.log(DevUtil.isTrue(true));</script>
+   * <script type="application/javascript">console.log(DevUtil.isTrue(true));</script>
 
 ## Functions list
 
