@@ -1,22 +1,35 @@
-# DevUtilJS
+# DevUtil.js
 
-Useful JavaScript development utilities.
+Useful JavaScript development utilities (functions).
 
-## Installation
+## Usage
 
 ### JavaScript file
 
- * Download whole repository or just a single [devutil.js](dist/devutil.js) file
- * Add to .html file (`<head>` section):
-   * <script src="devutil.js"></script>
- * Call JavaScript function from your JavaScript code, example:
-   * <script type="application/javascript">console.log(DevUtil.isTrue(true));</script>
+1. Download whole repository or just a single [devutil.js](dist/devutil.js) file.
 
-## Functions list
+2. Add to .html file (`<head>` section):
 
-| JavaScript function   | Description                                                 |
-| --------------------- | ----------------------------------------------------------- |
-| DevUtil.isDefined()   | `true`: if variable is defined, `false`: otherwise          |
-| DevUtil.isUndefined() | `true`: if variable is undefined, `false`: otherwise        |
-| DevUtil.isTrue()      | `true`: if variable equals to **true**, `false`: otherwise  |
-| DevUtil.isFalse()     | `true`: if variable equals to **false**, `false`: otherwise |
+`<script src="devutil.js"></script>`
+
+3. Call JavaScript function from your JavaScript code, example:
+```javascript
+<script type="application/javascript">
+  console.log(DevUtil.isTrue(true));
+</script>
+```
+
+## Functions
+
+| JavaScript function   | Description                                                         |
+| --------------------- | ------------------------------------------------------------------- |
+| DevUtil.isDefined()   | `true` if variable is defined, `false` otherwise                  |
+| DevUtil.isUndefined() | `true` if variable is undefined, `false` otherwise                |
+| DevUtil.isTrue()      | `true` if variable's value equals to **true**, `false` otherwise  |
+| DevUtil.isFalse()     | `true` if variable's value equals to **false**, `false` otherwise |
+
+## License
+
+[MIT](LICENSE)
+
+Copyright (c) 2021, [Andrey Kashukov](https://github.com/kashukov)
