@@ -28,6 +28,18 @@ Useful JavaScript development utilities (functions).
 | DevUtil.isTrue()      | `true` if variable's value equals to **true**, `false` otherwise  |
 | DevUtil.isFalse()     | `true` if variable's value equals to **false**, `false` otherwise |
 
+## Unit tests
+
+1. Install [npm](https://www.npmjs.com) package manager
+
+2. Install [Jest](https://jestjs.io) framework. For example, using the 'npm':
+
+`npm install --save-dev jest`
+
+3. Execute console command, to run the unit tests:
+
+`npm run test`
+
 ## License
 
 [MIT](LICENSE)

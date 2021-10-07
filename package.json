@@ -1,0 +1,32 @@
+{
+  "name": "devutil",
+  "version": "1.0.0",
+  "description": "Useful JavaScript development utilities (functions).",
+  "main": "dist/devutil.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devutiljs/devutil.git"
+  },
+  "keywords": [
+    "javascript",
+    "development",
+    "frontend",
+    "functions"
+  ],
+  "author": "Andrey Kashukov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devutiljs/devutil/issues"
+  },
+  "homepage": "https://github.com/devutiljs/devutil#readme",
+  "devDependencies": {
+    "jest": "^27.2.4"
+  }
+}

@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 class DevUtil {
     static isDefined(variable) {
@@ -16,4 +16,8 @@ class DevUtil {
     static isFalse(variable) {
         return variable === false;
     }
+}
+
+if (typeof module !== 'undefined' && typeof exports === 'object') {
+    module.exports = DevUtil;
 }
