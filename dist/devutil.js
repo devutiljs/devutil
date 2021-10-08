@@ -16,6 +16,16 @@ class DevUtil {
     static isFalse(variable) {
         return variable === false;
     }
+
+    // Mathematical functions
+
+    static factorial(n) {
+        if (n === 0) {
+            return 1;
+        }
+
+        return n * DevUtil.factorial(n - 1);
+    }
 }
 
 if (typeof module !== 'undefined' && typeof exports === 'object') {

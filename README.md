@@ -4,7 +4,7 @@ Useful JavaScript development utilities (functions).
 
 ## Installation
 
-You can download JavaScript file directly or install it via 'npm' package manager. 
+You can download a JavaScript file or install it via 'npm' package manager. 
 
 ### JavaScript file
 
@@ -21,11 +21,11 @@ Download whole repository or just a single [devutil.js](dist/devutil.js) file.
 
 ## Usage
 
-1. Add to .html file (`<head>` section):
+1. Add `<script>` tag to .html file (`<head>` section):
 
 `<script src="devutil.js"></script>`
 
-2. Call JavaScript function from your JavaScript code, example:
+2. Call JavaScript function from your JavaScript code, for example:
 ```javascript
 <script type="application/javascript">
   console.log(DevUtil.isTrue(true));
@@ -46,7 +46,7 @@ Download whole repository or just a single [devutil.js](dist/devutil.js) file.
 
 1. Install [npm](https://www.npmjs.com) package manager, if it's not installed
 
-2. Install [Jest](https://jestjs.io) framework, if it's not installed. For example, via 'npm':
+2. Install [Jest](https://jestjs.io) JavaScript testing framework, if it's not installed. For example, via 'npm':
 
 `npm install --save-dev jest`
 
