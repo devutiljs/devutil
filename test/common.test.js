@@ -1,4 +1,4 @@
-const DevUtil = require('../dist/devutil');
+const DevUtil = require('../src/devutil');
 
 test('Variable is defined', () => {
     expect(DevUtil.isDefined("value")).toBe(true);

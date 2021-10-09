@@ -2,7 +2,7 @@
   "name": "@devutil/devutil",
   "version": "1.0.0",
   "description": "Useful JavaScript development utilities (functions).",
-  "main": "dist/devutil.js",
+  "main": "dist/devutil.min.js",
   "directories": {
     "example": "example",
     "test": "test"
